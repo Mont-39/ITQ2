@@ -8,8 +8,10 @@ WIFI_PASSWORD = "MontPi39"
 
 MQTT_BROKER = "10.42.0.1"
 MQTT_PORT = 1883
-MQTT_TOPIC = "taekwondo/gamma"
-CLIENT_ID = "pico1"
+MQTT_TOPIC = "taekwondo/alpha" #Topic 1
+#MQTT_TOPIC = "taekwondo/beta" Topic 2
+#MQTT_TOPIC = "taekwondo/gamma" Topic 3
+CLIENT_ID = "pico"
 
 blu1 = Pin(15, Pin.IN, Pin.PULL_UP)
 blu2 = Pin(14, Pin.IN, Pin.PULL_UP)
